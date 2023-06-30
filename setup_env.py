@@ -90,3 +90,6 @@ engine_sf_stg = sa.create_engine(
 
 with open('SQL/data_snow.txt') as f:
     str_sql_data = "".join(f.readlines())
+
+with open('SQL/data_eta.txt') as f:
+    str_sql_eta = "".join(f.readlines())
